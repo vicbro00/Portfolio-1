@@ -1,0 +1,87 @@
+/*Universal styles*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+}
+
+html {
+    margin: 0 2em;
+}
+
+body {
+    background-color: rgb(0, 0, 0, 80%);
+}
+
+h1 {
+    color: #F541FF;
+    font-family: 'nunito sans', 'roboto', 'catamaran';
+    font-weight: 500;
+}
+
+h2 {
+    color: white;
+    font-family: 'roboto', 'nunito sans', 'catamaran';
+}
+
+p {
+    color: #FFF700;
+    font-family: 'nunito sans', 'roboto', 'catamaran';
+}
+
+button {
+    font-family: 'catamaran', 'roboto', 'nunito sans';
+    background-color: black;
+    color: #FFF700;
+    border-style: none;
+    padding: 1em 2em;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main a {
+    color: white;
+    text-decoration: none;
+    font-family: 'catamaran', 'roboto', 'nunito sans';
+}
+
+main a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/*Header styles*/
+header {
+    background-color: #000000;
+}
+
+header li {
+    color: #FFF700;
+    font-family: 'nunito sans', 'roboto', 'catamaran';
+    list-style: none;
+}
+
+/*Main styles*/
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+.info h2,
+.info button,
+.info img {
+    margin: 1em 0;
+}
+
+.info img {
+    max-width: 100%;
+}
