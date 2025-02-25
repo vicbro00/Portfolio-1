@@ -1,3 +1,11 @@
+Things I would like to improve:
+  -More structured Figma files.
+
+  -Better structure in my css files on all projects, include more comments and sort the styles according to different subcontents (header, footer, basic styles, main content etc.).
+
+  -Add more issues in the project boards.
+
+
 Projects to use to improve:
 
   -Semester Project 1:
