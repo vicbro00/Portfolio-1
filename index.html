@@ -12,19 +12,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d33f7d3ef.js" crossorigin="anonymous"></script>
     <title>Victoria Brown Portfolio</title>
     <link rel="stylesheet" href="css/style.css"></link>
 </head>
 <body>
     <header>
-        <div>
-            <ul>
-                <li>Home</li>
-                <li>Websites</li>
-                <li>Previews</li>
-            </ul>
+        <nav>
+            <div class="menu-mobile">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul class="ul-mobile">
+                    <li><a href="index.html">Home</li></a>
+                    <li><a href="">Websites</li></a>
+                    <li><a href="">Previews</li></a>
+                    <li><a href="">Back to top</li></a>
+                </ul>
+            </div>
+            <div class="menu-desktop">
+                <ul class="ul-desktop">
+                    <li>Home</li>
+                    <li>Websites</li>
+                    <li>Previews</li>
+                </ul>
+            </div>
             <h1>Victoria Brown</h1>
-        </div>
+        </nav>
     </header>
 
     <main>
@@ -48,33 +63,51 @@
             <h1>Semester Project 1</h1>
             <img src="images/Museum of Wonders preview.png" alt="">
             <h2>This is the webpage for a museum called Museum of Wonders!</h2>
-            <a href="https://github.com/vicbro00/Semester-Project" target="_blank">Link to Semester Project github site</a>
-            <a href="https://vicbro00.github.io/Semester-Project/index.html" target="_blank">Link to Semester Project live website</a>
+            <div class="links">
+                <a href="https://github.com/vicbro00/Semester-Project" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>Link to Semester Project github site</a>
+            </div>
+            <div class="links">
+                <a href="https://vicbro00.github.io/Semester-Project/index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>Link to Semester Project live website</a>
+            </div>
         </div>
         <div class="project-container" id="project2">
             <h1>Cross Course Project</h1>
             <img src="images/Rainy Days preview.png" alt="">
             <h2>This is the webpage for a store called Rainy Days!</h2>
-            <a href="https://github.com/vicbro00/Javascript-1">Link to Cross Course Project github site</a>
-            <a href="https://vicbro00.github.io/Javascript-1/">Link to Cross Course Project live website</a>
+            <div class="links">
+                <a href="https://github.com/vicbro00/html-css-course-assignment" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>Link to Cross Course Project github site</a>
+            </div>
+            <div class="links">
+                <a href="https://vicbro00.github.io/html-css-course-assignment/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>Link to Cross Course Project live website</a>
+            </div>
         </div>
         <div class="project-container" id="project3">
             <h1>Exam Project 1</h1>
             <img src="images/Exam Project 1 preview.png" alt="">
             <h2>This is the webpage for a blog website called HotView Labs!</h2>
-            <a href="https://github.com/vicbro00/Exam-project-1">Link to Exam Project 1 github site</a>
-            <a href="https://vicbro00.github.io/Exam-project-1/">Link to Exam Project 1 live website</a>
+            <div class="links"> 
+                <a href="https://github.com/vicbro00/Exam-project-1" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>Link to Exam Project 1 github site</a>
+            </div>
+           <div class="links">
+            <a href="https://vicbro00.github.io/Exam-project-1/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>Link to Exam Project 1 live website</a>
+           </div>
         </div>
     </main>
 
     <footer>
         <div>
-            <p>LinkedIn</p>
-            <p>Instagram</p>
-            <p>GitHub</p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/victoria-brown-2bb846176/" target="_blank"><i class="fa-brands fa-linkedin"></i><p>LinkedIn</p></a>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.instagram.com/victoriabrowwn_/" target="_blank"><i class="fa-brands fa-instagram"></i><p>Instagram</p></a>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/vicbro00" target="_blank"><i class="fa-brands fa-square-github"></i><p>GitHub</p></a>
+            </div>
         </div>
         <div>
-            <p>vicbro@hotmail.no</p>
+            <p><a href="mailto:vicbro@hotmail.no">Send me an email!</a></p>
         </div>
     </footer>
 </body>
