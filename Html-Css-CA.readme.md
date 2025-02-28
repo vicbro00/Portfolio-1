@@ -1,4 +1,4 @@
-# Semester Project 1 (Museum of Wonders)
+# HTML and CSS CA (Rainy Days Website)
 
 Website preview![Rainy Days store image](https://github.com/vicbro00/Portfolio-1/blob/main/images/Rainy%20Days%20preview.png?raw=true)
 )
