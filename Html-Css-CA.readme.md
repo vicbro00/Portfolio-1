@@ -1,6 +1,6 @@
 # HTML and CSS CA (Rainy Days Website)
 
-Website preview![Rainy Days store image](https://github.com/vicbro00/Portfolio-1/blob/main/images/Rainy%20Days%20preview.png?raw=true)
+Website preview![Rainy Days store image](https://i.postimg.cc/SNR9n25n/Rainy-Days-preview.png)
 
 A simple overview of the use/purpose of the project.
 
